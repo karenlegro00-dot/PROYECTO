@@ -53,9 +53,9 @@ Se conserva la evolución de la ficha para identificar cambios y decisiones sin 
 
 ### Seguimiento en GitHub
 
-- [Issue #1: diagnóstico institucional](../issues/1).
-- [Issue #2: formulación del problema y los objetivos](../issues/2).
-- [Issue #3: diseño de estrategias](../issues/3).
+- [Issue #1: diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1).
+- [Issue #2: formulación del problema y los objetivos](https://github.com/karenlegro00-dot/PROYECTO/issues/2).
+- [Issue #3: diseño de estrategias](https://github.com/karenlegro00-dot/PROYECTO/issues/3).
 
 Cada Issue principal tiene dos subissues relacionados con las tareas concretas de la etapa.
 
