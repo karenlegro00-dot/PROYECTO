@@ -26,9 +26,9 @@ El documento reúne referencias para apoyar el análisis. Las afirmaciones relev
 
 ### Registro de las verificaciones
 
-- [Issue #1: diagnóstico institucional](../issues/1).
-- [Subissue #16: recopilar indicadores](../issues/16).
-- [Subissue #17: identificar apoyos existentes](../issues/17).
+- [Issue #1: diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1).
+- [Subissue #16: recopilar indicadores](https://github.com/karenlegro00-dot/PROYECTO/issues/16).
+- [Subissue #17: identificar apoyos existentes](https://github.com/karenlegro00-dot/PROYECTO/issues/17).
 
 ## Estado de la evidencia
 
