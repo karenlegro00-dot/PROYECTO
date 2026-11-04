@@ -1,0 +1,38 @@
+name: Organizar documentos del proyecto
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/organizar-proyecto.yml"
+      - "01_PROYECTO_20260916_UC001-20261103T214921Z-1-001.zip"
+      - "scripts/organizar_archivos.py"
+
+permissions:
+  contents: write
+
+jobs:
+  organizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Organizar Word y Excel del ZIP
+        run: python3 scripts/organizar_archivos.py
+
+      - name: Registrar archivos en las cuatro carpetas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 01_Formulacion 02_Evidencias 03_Seguimiento 04_Finalizacion
+          if git diff --cached --quiet; then
+            echo "No hay cambios que registrar."
+          else
+            git commit -m "Organizar documentos originales por etapas del proyecto"
+            git push origin HEAD:main
+          fi
