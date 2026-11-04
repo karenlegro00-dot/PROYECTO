@@ -29,10 +29,10 @@ Contiene el instrumento de trabajo para organizar necesidades de información, v
 
 Se utilizaron **4 Issues principales con 2 subissues cada uno**:
 
-1. [Issue #1: diagnóstico institucional](../issues/1) — subissues [#16](../issues/16) y [#17](../issues/17).
-2. [Issue #2: formulación del problema y objetivos](../issues/2) — subissues [#12](../issues/12) y [#13](../issues/13).
-3. [Issue #3: diseño de estrategias](../issues/3) — subissues [#14](../issues/14) y [#18](../issues/18).
-4. [Issue #4: indicadores, seguimiento y evaluación](../issues/4) — subissues [#15](../issues/15) y [#19](../issues/19).
+1. [Issue #1: diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1) — subissues [#16](https://github.com/karenlegro00-dot/PROYECTO/issues/16) y [#17](https://github.com/karenlegro00-dot/PROYECTO/issues/17).
+2. [Issue #2: formulación del problema y objetivos](https://github.com/karenlegro00-dot/PROYECTO/issues/2) — subissues [#12](https://github.com/karenlegro00-dot/PROYECTO/issues/12) y [#13](https://github.com/karenlegro00-dot/PROYECTO/issues/13).
+3. [Issue #3: diseño de estrategias](https://github.com/karenlegro00-dot/PROYECTO/issues/3) — subissues [#14](https://github.com/karenlegro00-dot/PROYECTO/issues/14) y [#18](https://github.com/karenlegro00-dot/PROYECTO/issues/18).
+4. [Issue #4: indicadores, seguimiento y evaluación](https://github.com/karenlegro00-dot/PROYECTO/issues/4) — subissues [#15](https://github.com/karenlegro00-dot/PROYECTO/issues/15) y [#19](https://github.com/karenlegro00-dot/PROYECTO/issues/19).
 
 ### Estados de seguimiento
 
