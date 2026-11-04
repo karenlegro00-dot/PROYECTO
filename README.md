@@ -106,7 +106,7 @@ Las cifras nacionales dan contexto, pero no sustituyen el diagnóstico instituci
 - **Word:** elaboración y actualización de la ficha y del documento de consolidación.
 - **Excel:** matriz de necesidades de información y evidencia, versiones y trazabilidad.
 - **GitHub (repositorio e Issues):** organización de documentos, actividades, verificaciones y riesgos.
-- **Inteligencia artificial (ChatGPT):** apoyo en localización, organización, síntesis y auditoría de afirmaciones, con revisión y decisiones humanas documentadas. El registro de uso de IA debe mantenerse actualizado.
+- **Inteligencia artificial (ChatGPT):** apoyo en la preparación de textos, organización técnica del repositorio y configuración de Issues y subissues, además de orientación para revisar información. La estudiante debe revisar y validar el contenido académico, las fuentes y las decisiones finales. El registro de uso de IA debe mantenerse actualizado.
 
 ## Decisiones pendientes
 
