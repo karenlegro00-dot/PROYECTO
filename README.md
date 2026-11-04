@@ -43,24 +43,25 @@ Estas líneas son **alternativas de formulación**, no actividades implementadas
 
 [Consultar los Issues del proyecto](https://github.com/karenlegro00-dot/PROYECTO/issues)
 
-Los **15 elementos** de la matriz de preparación se registran en GitHub Issues mediante códigos:
+El trabajo se organiza en **4 Issues principales, cada uno con 2 subissues reales de GitHub**, para un total de **12 tareas abiertas**:
 
-- `ACT`: actividades necesarias para avanzar en la formulación.
-- `PROD`: productos documentales del proyecto.
-- `VER`: comprobaciones de fuentes o afirmaciones.
-- `RIES`: riesgos que deben vigilarse.
-- `PEND`: decisiones e información pendientes.
+### 1. [Diagnóstico institucional — Issue #1](https://github.com/karenlegro00-dot/PROYECTO/issues/1)
+- [Subissue #16: recopilar indicadores institucionales de permanencia](https://github.com/karenlegro00-dot/PROYECTO/issues/16).
+- [Subissue #17: identificar apoyos institucionales y necesidades no cubiertas](https://github.com/karenlegro00-dot/PROYECTO/issues/17).
 
-Cada issue describe su estado documentado, prioridad, dependencia, soporte y decisión vinculada. Estar registrado en GitHub no equivale a estar ejecutado.
+### 2. [Formulación del problema y objetivos — Issue #2](https://github.com/karenlegro00-dot/PROYECTO/issues/2)
+- [Subissue #12: delimitar la población objetivo](https://github.com/karenlegro00-dot/PROYECTO/issues/12).
+- [Subissue #13: precisar el alcance y los objetivos del programa](https://github.com/karenlegro00-dot/PROYECTO/issues/13).
 
-### Subissues del diagnóstico institucional
+### 3. [Diseño de estrategias de permanencia — Issue #3](https://github.com/karenlegro00-dot/PROYECTO/issues/3)
+- [Subissue #14: priorizar las estrategias de intervención](https://github.com/karenlegro00-dot/PROYECTO/issues/14).
+- [Subissue #18: revisar apoyos existentes y evitar duplicidades](https://github.com/karenlegro00-dot/PROYECTO/issues/18).
 
-La actividad principal **[ACT01 · Diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1)** tiene vinculados dos subissues nativos de GitHub:
+### 4. [Indicadores, seguimiento y evaluación — Issue #4](https://github.com/karenlegro00-dot/PROYECTO/issues/4)
+- [Subissue #15: registrar avances, evidencias y riesgos](https://github.com/karenlegro00-dot/PROYECTO/issues/15).
+- [Subissue #19: definir indicadores y criterios de evaluación](https://github.com/karenlegro00-dot/PROYECTO/issues/19).
 
-1. **[SUB-ACT01.1 · Recopilar indicadores institucionales](https://github.com/karenlegro00-dot/PROYECTO/issues/16)**: documentar datos institucionales verificables de matrícula, deserción y permanencia.
-2. **[SUB-ACT01.2 · Identificar apoyos institucionales](https://github.com/karenlegro00-dot/PROYECTO/issues/17)**: elaborar un inventario de los servicios existentes y posibles necesidades por verificar.
-
-En total, este repositorio registra **17 Issues**, incluidos estos **2 subissues** relacionados con el diagnóstico.
+La matriz original conserva más elementos de preparación y verificación (`ACT`, `PROD`, `VER`, `RIES` y `PEND`), pero se agruparon para facilitar el seguimiento. Los **7 Issues anteriores #5 a #11 se cerraron para evitar tareas duplicadas**; siguen disponibles como historial de formulación, sin perder los documentos originales. Los Issues abiertos no significan que sus actividades ya estén ejecutadas.
 
 ## Responsabilidades
 
@@ -109,14 +110,11 @@ Las cifras nacionales dan contexto, pero no sustituyen el diagnóstico instituci
 
 ## Decisiones pendientes
 
-- **[ACT01 · Diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1):** obtener información desagregada sobre matrícula, riesgo y funcionamiento de apoyos.
-- **[PEND01 · Población objetivo](https://github.com/karenlegro00-dot/PROYECTO/issues/12):** precisar tamaño y perfil de la población beneficiaria.
-- **[PEND02 · Alcance del programa](https://github.com/karenlegro00-dot/PROYECTO/issues/13):** delimitar sedes, programas o modalidades.
-- **[PEND03 · Alternativas prioritarias](https://github.com/karenlegro00-dot/PROYECTO/issues/14):** determinar qué líneas conviene mantener, articular o modificar.
-- **[ACT04 · Indicadores](https://github.com/karenlegro00-dot/PROYECTO/issues/4):** definir líneas base, metas y medios de verificación.
-- **[VER01 y VER02 · Comprobación documental](https://github.com/karenlegro00-dot/PROYECTO/issues):** revisar directamente una publicación institucional de febrero de 2026 y la cifra de 478 participantes.
-- **[RIES01 y RIES02 · Riesgos](https://github.com/karenlegro00-dot/PROYECTO/issues):** evitar decisiones sin evidencia y duplicar servicios institucionales.
-- **Finalización:** elaborar el informe de cierre solo cuando existan resultados reales y soportes de ejecución.
+- **Diagnóstico institucional:** conseguir datos internos y verificar los servicios existentes ([Issue #1](https://github.com/karenlegro00-dot/PROYECTO/issues/1)).
+- **Población objetivo y alcance:** definir estudiantes, sedes o programas con base en información verificable ([Issue #2](https://github.com/karenlegro00-dot/PROYECTO/issues/2)).
+- **Estrategias del programa:** seleccionar acciones viables de acompañamiento, alertas y bienestar sin duplicar apoyos ([Issue #3](https://github.com/karenlegro00-dot/PROYECTO/issues/3)).
+- **Indicadores y seguimiento:** fijar líneas base, metas, medios de verificación y criterios de evaluación ([Issue #4](https://github.com/karenlegro00-dot/PROYECTO/issues/4)).
+- **Finalización:** incluir resultados e informe de cierre solo cuando existan implementación y soportes verificables.
 
 ---
 
