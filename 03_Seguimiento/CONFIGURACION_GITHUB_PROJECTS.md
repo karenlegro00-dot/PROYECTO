@@ -1,53 +1,50 @@
-# Configuración del tablero GitHub Projects
+# Tablero de seguimiento en GitHub Projects
+
+**Proyecto:** Programa integral para fortalecer la permanencia estudiantil  
+**Cuenta:** karenlegro00-dot  
+**Repositorio:** [PROYECTO](https://github.com/karenlegro00-dot/PROYECTO)  
+**Tablero público:** [Seguimiento - Programa integral para fortalecer la permanencia estudiantil](https://github.com/users/karenlegro00-dot/projects/1/views/1)
 
 ## Objetivo
 
-Reproducir el tablero de seguimiento del repositorio de referencia para el **Programa integral para fortalecer la permanencia estudiantil**. Este documento prepara la configuración sin afirmar que el tablero ya existe.
+Organizar y consultar en una misma vista las actividades de formulación, las necesidades de información y los asuntos de seguimiento del proyecto. El tablero complementa los archivos Word, Excel y los Issues del repositorio.
 
-**Nombre sugerido:** Seguimiento - Programa integral para fortalecer la permanencia estudiantil
+## Organización del tablero
 
-**Tipo:** GitHub Projects, vista **Board**.
+El tablero contiene **12 elementos**, de los cuales **4 son Issues principales** y **8 son subissues**. Sus columnas actuales son:
 
-## Columnas de estado
+- **Todo (7):** tareas pendientes de desarrollar o verificar.
+- **In Progress (5):** actividades de formulación y revisión en curso.
+- **Done (0):** tareas finalizadas. Aún no se reportan actividades completadas en esta columna.
 
-1. **Pendiente:** actividades todavía no iniciadas o sin información institucional.
-2. **En curso:** actividades de formulación, organización o revisión que están en desarrollo.
-3. **Validado:** entregables con comprobación documental o revisión efectuada. No usar si todavía no hay evidencia.
-4. **Listo para GitHub:** insumos completamente preparados y revisados para su publicación.
+## Issues y estados
 
-## Issues que debes incorporar
-
-| Issue | Actividad | Estado de trabajo inicial |
+| Issue | Actividad | Columna |
 | --- | --- | --- |
-| [#1](https://github.com/karenlegro00-dot/PROYECTO/issues/1) | Diagnóstico institucional | Pendiente |
-| [#16](https://github.com/karenlegro00-dot/PROYECTO/issues/16) | Recopilar indicadores de permanencia | Pendiente |
-| [#17](https://github.com/karenlegro00-dot/PROYECTO/issues/17) | Identificar apoyos existentes | Pendiente |
-| [#2](https://github.com/karenlegro00-dot/PROYECTO/issues/2) | Formular problema y objetivos | En curso |
-| [#12](https://github.com/karenlegro00-dot/PROYECTO/issues/12) | Delimitar población objetivo | Pendiente |
-| [#13](https://github.com/karenlegro00-dot/PROYECTO/issues/13) | Precisar alcance y objetivos | En curso |
-| [#3](https://github.com/karenlegro00-dot/PROYECTO/issues/3) | Diseñar estrategias de permanencia | En curso |
-| [#14](https://github.com/karenlegro00-dot/PROYECTO/issues/14) | Priorizar alternativas | En curso |
-| [#18](https://github.com/karenlegro00-dot/PROYECTO/issues/18) | Revisar apoyos y duplicidades | Pendiente |
-| [#4](https://github.com/karenlegro00-dot/PROYECTO/issues/4) | Seguimiento y evaluación | Pendiente |
-| [#15](https://github.com/karenlegro00-dot/PROYECTO/issues/15) | Registrar avances, evidencias y riesgos | En curso |
-| [#19](https://github.com/karenlegro00-dot/PROYECTO/issues/19) | Definir indicadores de evaluación | Pendiente |
+| [#1](https://github.com/karenlegro00-dot/PROYECTO/issues/1) | Diagnóstico institucional de permanencia | Todo |
+| [#16](https://github.com/karenlegro00-dot/PROYECTO/issues/16) | Recopilar indicadores institucionales | Todo |
+| [#17](https://github.com/karenlegro00-dot/PROYECTO/issues/17) | Identificar apoyos existentes | Todo |
+| [#2](https://github.com/karenlegro00-dot/PROYECTO/issues/2) | Formulación del problema y objetivos | In Progress |
+| [#12](https://github.com/karenlegro00-dot/PROYECTO/issues/12) | Delimitar población objetivo | Todo |
+| [#13](https://github.com/karenlegro00-dot/PROYECTO/issues/13) | Precisar alcance y objetivos | In Progress |
+| [#3](https://github.com/karenlegro00-dot/PROYECTO/issues/3) | Diseño de estrategias de permanencia | In Progress |
+| [#14](https://github.com/karenlegro00-dot/PROYECTO/issues/14) | Priorizar alternativas | In Progress |
+| [#18](https://github.com/karenlegro00-dot/PROYECTO/issues/18) | Revisar apoyos y evitar duplicidades | Todo |
+| [#4](https://github.com/karenlegro00-dot/PROYECTO/issues/4) | Seguimiento y evaluación | Todo |
+| [#15](https://github.com/karenlegro00-dot/PROYECTO/issues/15) | Registrar avances, evidencias y riesgos | In Progress |
+| [#19](https://github.com/karenlegro00-dot/PROYECTO/issues/19) | Definir indicadores de evaluación | Todo |
 
-Estas ubicaciones son **iniciales y provisionales**, no certificados de ejecución.
+**Nota:** la distribución corresponde a la preparación de la entrega; los estados deben actualizarse conforme avance el trabajo. Los Issues #5 al #11 permanecen cerrados como historial y **no fueron incluidos en el tablero**.
 
-## Crear el tablero en GitHub Projects
+## Consulta y actualización
 
-1. Abre [Projects del usuario karenlegro00-dot](https://github.com/users/karenlegro00-dot/projects).
-2. Selecciona **New project** y, en **Start from scratch**, elige **Board**.
-3. Escribe el nombre sugerido arriba y pulsa **Create project**. Si GitHub ofrece importar todos los Issues durante la creación, omite ese paso: hay siete Issues antiguos cerrados que no deben formar parte del tablero.
-4. Abre su campo **Status** y configura las opciones **Pendiente**, **En curso**, **Validado** y **Listo para GitHub**.
-5. Abre **Add item → Add item from repository**, selecciona `karenlegro00-dot/PROYECTO` y marca **solo los 12 Issues abiertos** (4 principales y 8 subissues) que aparecen en la tabla; después elige **Add selected items**.
-6. Ubica cada uno según la columna indicada en la tabla.
-7. En **Settings** del tablero, configura su visibilidad en **Public** si quieres que el docente pueda abrirlo sin permisos de colaboración. Copia su URL real y agrégala en `## Seguimiento del proyecto` del README principal.
-
-**Nota de permisos:** GitHub Projects es una función independiente del repositorio. La automatización normal con `GITHUB_TOKEN` no permite crear un Project de usuario ni editar sus campos sin un permiso específico de Projects. No almacenes contraseñas ni tokens en archivos de este repositorio.
+1. Abre el [tablero de GitHub Projects](https://github.com/users/karenlegro00-dot/projects/1/views/1).
+2. Selecciona una tarjeta para revisar su Issue, sus subissues y su estado.
+3. Cambia el campo **Status** únicamente cuando el avance real de la actividad lo justifique.
+4. Incorpora evidencias o documentos pertinentes en el repositorio y referencia sus enlaces en los Issues.
 
 ## Finalización
 
-La carpeta `04_Finalizacion/` se conserva sin documentos finales. Como GitHub no almacena carpetas completamente vacías, incluye solo un archivo `README.md` de un salto de línea, igual que el ejemplo. No añadir resultados ni actas hasta que el proyecto termine.
+La carpeta [04_Finalizacion](../04_Finalizacion/) permanece sin informes finales. El proyecto sigue en formulación, por lo que no se registran resultados de ejecución ni documentos de cierre.
 
-**Comprobación al terminar:** deben aparecer exactamente **12 elementos** (los Issues abiertos #1, #2, #3, #4, #12–#19). Los antiguos #5–#11 están cerrados y no se deben agregar.
+[Volver al README principal](../README.md).
