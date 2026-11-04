@@ -100,7 +100,7 @@ La [configuración del tablero GitHub Projects](../03_Seguimiento/CONFIGURACION_
 - **Excel:** matriz de necesidades de información y evidencia.
 - **GitHub (Issues y subissues):** organización de actividades y seguimiento.
 - **GitHub Projects:** tablero de estados previsto, pendiente de creación.
-- **ChatGPT (IA):** apoyo para organizar información, revisar la coherencia y preparar documentos, con validación humana de las decisiones y de las fuentes.
+- **ChatGPT (IA):** apoyo en la preparación de textos, organización técnica del repositorio y seguimiento en GitHub, así como orientación para revisar la coherencia. El contenido, las fuentes y las decisiones académicas deben ser revisados y validados por la estudiante.
 
 ## Decisiones pendientes
 
