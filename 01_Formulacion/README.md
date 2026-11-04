@@ -72,9 +72,9 @@ El seguimiento está organizado en **4 Issues principales, cada uno con 2 subiss
 
 [Ver actividades en GitHub Issues](https://github.com/karenlegro00-dot/PROYECTO/issues)
 
-Los estados previstos para el seguimiento son *Pendiente*, *En curso*, *Validado* y *Listo para GitHub*.
+El seguimiento se presenta en el tablero con las columnas **Todo (pendiente)**, **In Progress (en curso)** y **Done (finalizado)**. Las tareas se encuentran en las dos primeras columnas porque el programa aún no ha terminado.
 
-La [configuración del tablero GitHub Projects](../03_Seguimiento/CONFIGURACION_GITHUB_PROJECTS.md) está preparada. **El tablero todavía debe crearse en la cuenta de GitHub**; no se incluye un enlace a un Project inexistente.
+El [**tablero público de GitHub Projects**](https://github.com/users/karenlegro00-dot/projects/1/views/1) está creado y contiene **12 actividades**: 7 en Todo, 5 en In Progress y ninguna en Done. Puedes consultar la [distribución de actividades](../03_Seguimiento/CONFIGURACION_GITHUB_PROJECTS.md).
 
 ## Insumos disponibles
 
@@ -99,7 +99,7 @@ La [configuración del tablero GitHub Projects](../03_Seguimiento/CONFIGURACION_
 - **Word:** elaboración y revisión de la ficha del proyecto.
 - **Excel:** matriz de necesidades de información y evidencia.
 - **GitHub (Issues y subissues):** organización de actividades y seguimiento.
-- **GitHub Projects:** tablero de estados previsto, pendiente de creación.
+- **GitHub Projects:** [tablero público de seguimiento](https://github.com/users/karenlegro00-dot/projects/1/views/1) con los 12 Issues y subissues del proyecto.
 - **ChatGPT (IA):** apoyo en la preparación de textos, organización técnica del repositorio y seguimiento en GitHub, así como orientación para revisar la coherencia. El contenido, las fuentes y las decisiones académicas deben ser revisados y validados por la estudiante.
 
 ## Decisiones pendientes
