@@ -1,0 +1,41 @@
+name: Vincular subissues de diagnostico
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/vincular-subissues.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  vincular:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Relacionar dos subissues con ACT01
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for sub_issue_id in 6195860924 6195861264; do
+            codigo=$(curl --silent --show-error --location \
+              --output resultado.json --write-out "%{http_code}" \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${REPO}/issues/1/sub_issues" \
+              -d "{\"sub_issue_id\":${sub_issue_id}}")
+            if [ "$codigo" != "201" ]; then
+              echo "Error al vincular subissue ${sub_issue_id}: HTTP ${codigo}"
+              cat resultado.json
+              exit 1
+            fi
+            echo "Subissue ${sub_issue_id} vinculado correctamente al Issue #1."
+          done
