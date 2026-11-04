@@ -1,5 +1,58 @@
 # 03 · Seguimiento
 
-Aquí se encuentran la matriz de información y evidencia, su versión anterior y el documento de consolidación para GitHub. La matriz principal es `LAB_PRO_EDU_SUP_MATRIZ_20261002_v02.xlsx`.
+**Proyecto:** Programa integral para fortalecer la permanencia estudiantil  
+**Estado:** organización documental realizada; seguimiento de actividades en curso o pendientes.
 
-Los pendientes y actividades también pueden registrarse en [Issues](../../issues), diferenciando tareas verificadas, pendientes y riesgos. No se debe presentar como ejecutada una actividad sin su soporte.
+> Esta carpeta permite mantener trazabilidad de los documentos, las necesidades de información, las tareas y las decisiones de la formulación.
+
+## Objetivo del seguimiento
+
+Registrar los avances y asuntos pendientes del proyecto mediante las matrices, el historial documental y las actividades gestionadas en GitHub.
+
+## Documentos de seguimiento
+
+### Matriz principal
+
+- [Matriz de necesidades de información y evidencia, versión 02](LAB_PRO_EDU_SUP_MATRIZ_20261002_v02.xlsx).
+
+Contiene el instrumento de trabajo para organizar necesidades de información, verificaciones y asuntos que deben resolverse durante la formulación.
+
+### Consolidación del proyecto
+
+- [Documento de consolidación para GitHub](Conso_Pro_Per_GitHub_v01.docx): reúne información de preparación y trazabilidad para estructurar el repositorio.
+
+### Versiones anteriores
+
+- [Matriz versión 01](versiones_anteriores/LAB_PRO_EDU_SUP_MATRIZ_20260928_v01.xlsx): se conserva para comparar cambios y mantener el historial.
+
+## Actividades organizadas en GitHub
+
+Se utilizaron **4 Issues principales con 2 subissues cada uno**:
+
+1. [Issue #1: diagnóstico institucional](../issues/1) — subissues [#16](../issues/16) y [#17](../issues/17).
+2. [Issue #2: formulación del problema y objetivos](../issues/2) — subissues [#12](../issues/12) y [#13](../issues/13).
+3. [Issue #3: diseño de estrategias](../issues/3) — subissues [#14](../issues/14) y [#18](../issues/18).
+4. [Issue #4: indicadores, seguimiento y evaluación](../issues/4) — subissues [#15](../issues/15) y [#19](../issues/19).
+
+### Estados de seguimiento
+
+Los estados previstos para el tablero GitHub Projects son:
+
+- **Pendiente:** todavía no se ha iniciado o falta información.
+- **En curso:** trabajo de formulación o revisión en desarrollo.
+- **Validado:** evidencia o documento efectivamente comprobado.
+- **Listo para GitHub:** contenido revisado y preparado para su publicación.
+
+La existencia de un Issue no demuestra que se haya completado la actividad.
+
+## Tablero GitHub Projects
+
+- [Instrucciones y distribución propuesta para el tablero](CONFIGURACION_GITHUB_PROJECTS.md).
+
+**Importante:** la configuración está preparada, pero no equivale a un tablero de GitHub Projects ya creado. Una vez que exista el tablero, debe añadirse aquí su enlace real.
+
+## Cierre del proyecto
+
+La carpeta [04_Finalizacion](../04_Finalizacion/) permanecerá sin documentos de cierre mientras no existan resultados comprobados ni un informe final.
+
+[Volver al README principal](../README.md).
