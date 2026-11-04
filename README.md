@@ -53,6 +53,15 @@ Los **15 elementos** de la matriz de preparación se registran en GitHub Issues 
 
 Cada issue describe su estado documentado, prioridad, dependencia, soporte y decisión vinculada. Estar registrado en GitHub no equivale a estar ejecutado.
 
+### Subissues del diagnóstico institucional
+
+La actividad principal **[ACT01 · Diagnóstico institucional](https://github.com/karenlegro00-dot/PROYECTO/issues/1)** tiene vinculados dos subissues nativos de GitHub:
+
+1. **[SUB-ACT01.1 · Recopilar indicadores institucionales](https://github.com/karenlegro00-dot/PROYECTO/issues/16)**: documentar datos institucionales verificables de matrícula, deserción y permanencia.
+2. **[SUB-ACT01.2 · Identificar apoyos institucionales](https://github.com/karenlegro00-dot/PROYECTO/issues/17)**: elaborar un inventario de los servicios existentes y posibles necesidades por verificar.
+
+En total, este repositorio registra **17 Issues**, incluidos estos **2 subissues** relacionados con el diagnóstico.
+
 ## Responsabilidades
 
 - **Karen Mariana Legro Sonsa:** definición del enfoque, revisión y consolidación de la ficha y la matriz, decisiones de alcance, verificación de fuentes y registro del apoyo de inteligencia artificial.
