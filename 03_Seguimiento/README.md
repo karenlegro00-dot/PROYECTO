@@ -36,20 +36,20 @@ Se utilizaron **4 Issues principales con 2 subissues cada uno**:
 
 ### Estados de seguimiento
 
-Los estados previstos para el tablero GitHub Projects son:
+El tablero público utiliza estas columnas:
 
-- **Pendiente:** todavía no se ha iniciado o falta información.
-- **En curso:** trabajo de formulación o revisión en desarrollo.
-- **Validado:** evidencia o documento efectivamente comprobado.
-- **Listo para GitHub:** contenido revisado y preparado para su publicación.
+- **Todo (7 actividades):** asuntos pendientes de iniciar o que requieren información adicional.
+- **In Progress (5 actividades):** trabajos de formulación y revisión en desarrollo.
+- **Done (0 actividades):** actividades finalizadas. Por ahora no se reportan actividades completadas.
 
 La existencia de un Issue no demuestra que se haya completado la actividad.
 
 ## Tablero GitHub Projects
 
-- [Instrucciones y distribución propuesta para el tablero](CONFIGURACION_GITHUB_PROJECTS.md).
+- [**Abrir el tablero público de GitHub Projects**](https://github.com/users/karenlegro00-dot/projects/1/views/1).
+- [Consultar las 12 actividades y sus estados](CONFIGURACION_GITHUB_PROJECTS.md).
 
-**Importante:** la configuración está preparada, pero no equivale a un tablero de GitHub Projects ya creado. Una vez que exista el tablero, debe añadirse aquí su enlace real.
+El tablero fue creado y organizado en GitHub Projects. Contiene los 4 Issues principales y sus 8 subissues; no incluye los 7 Issues antiguos cerrados.
 
 ## Cierre del proyecto
 
