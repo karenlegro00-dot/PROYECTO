@@ -1,4 +1,4 @@
-name: Vincular subissues de diagnostico
+name: Vincular subissues del proyecto
 
 on:
   push:
@@ -16,26 +16,32 @@ jobs:
   vincular:
     runs-on: ubuntu-latest
     steps:
-      - name: Relacionar dos subissues con ACT01
+      - name: Vincular subissues con cuatro actividades
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         shell: bash
         run: |
           set -euo pipefail
-          for sub_issue_id in 6195860924 6195861264; do
-            codigo=$(curl --silent --show-error --location \
-              --output resultado.json --write-out "%{http_code}" \
-              -X POST \
-              -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              -H "X-GitHub-Api-Version: 2022-11-28" \
-              "https://api.github.com/repos/${REPO}/issues/1/sub_issues" \
-              -d "{\"sub_issue_id\":${sub_issue_id}}")
-            if [ "$codigo" != "201" ]; then
-              echo "Error al vincular subissue ${sub_issue_id}: HTTP ${codigo}"
-              cat resultado.json
+          for par in "1:6195860924" "1:6195861264" "2:6195820189" "2:6195820504" "3:6195821007" "3:6196052346" "4:6195821436" "4:6196052769"; do
+            parent="${par%%:*}"
+            sub_id="${par#*:}"
+            url="https://api.github.com/repos/${REPO}/issues/${parent}/sub_issues"
+            status=$(curl --silent --show-error --location --output existentes.json --write-out "%{http_code}" -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${GH_TOKEN}" -H "X-GitHub-Api-Version: 2022-11-28" "${url}")
+            if [ "${status}" != "200" ]; then
+              echo "No se pudo consultar Issue #${parent}: HTTP ${status}"
+              cat existentes.json
               exit 1
             fi
-            echo "Subissue ${sub_issue_id} vinculado correctamente al Issue #1."
+            if jq -e --argjson sub "${sub_id}" 'any(.[]; .id == $sub)' existentes.json > /dev/null; then
+              echo "El subissue ${sub_id} ya esta vinculado a #${parent}"
+              continue
+            fi
+            status=$(curl --silent --show-error --location --output respuesta.json --write-out "%{http_code}" -X POST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${GH_TOKEN}" -H "X-GitHub-Api-Version: 2022-11-28" "${url}" -d "{\"sub_issue_id\":${sub_id}}")
+            if [ "${status}" != "201" ]; then
+              echo "No se pudo vincular ${sub_id} a #${parent}: HTTP ${status}"
+              cat respuesta.json
+              exit 1
+            fi
+            echo "Vinculado subissue ${sub_id} a Issue #${parent}"
           done
