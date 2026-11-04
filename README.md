@@ -72,7 +72,7 @@ La matriz original conserva más elementos de preparación y verificación (`ACT
 
 [Ver actividades y pendientes en GitHub Issues](https://github.com/karenlegro00-dot/PROYECTO/issues)
 
-Los Issues permiten seguir las tareas con estados documentados como *Pendiente*, *En revisión* y *Listo para GitHub*. **No se ha confirmado un tablero de GitHub Projects** para este repositorio, por lo que el enlace de Projects del ejemplo no se reutiliza.
+Los Issues permiten seguir las tareas y sus avances. Para igualar el ejemplo se preparó la [configuración del tablero GitHub Projects](03_Seguimiento/CONFIGURACION_GITHUB_PROJECTS.md), con los **12 Issues y subissues**, y los estados *Pendiente*, *En curso*, *Validado* y *Listo para GitHub*. **El tablero en sí requiere crearse desde la cuenta de GitHub y todavía no está confirmado**; por eso no se presenta un enlace de Projects inexistente.
 
 ### Organización de las carpetas
 
